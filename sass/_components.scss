@@ -125,6 +125,7 @@
         text-transform: uppercase;text-decoration: none;
         text-transform: uppercase;
         padding: 0 2rem;
+        z-index:1;
         visibility: hidden;
         opacity: 0;
     }
@@ -177,7 +178,7 @@
     }
     &__sub-nav {
         font-size: 1.4rem;
-        
+        z-index: 1;
         list-style:none;
         
         display:block;
@@ -191,7 +192,7 @@
     }
     &__item {
         background-color: var(--color-grey-light-2);
-        padding: 0 2rem;
+        padding: 0 1.6rem;
     }
     &__link:link,
     &__link:visited {
